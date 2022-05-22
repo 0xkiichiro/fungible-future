@@ -55,7 +55,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-.container__modal .container__modal p {
+.container__modal .container__modal--p {
   color: #666666;
 }
 .container__modal .container__modal--interact {
