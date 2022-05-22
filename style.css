@@ -41,11 +41,9 @@ body {
   border: 1px solid #ffffff;
   padding: 32px 40px;
   max-width: 400px;
-}
-
-.container__modal {
   color: #ffffff;
 }
+
 .container__modal .container__modal--h1 {
   margin-top: 8px;
 }
@@ -76,6 +74,23 @@ body {
 }
 .container__modal .modal__interact--button:active {
   background-color: #ffffff;
+}
+
+.container__marketplace {
+  width: 400px;
+}
+.container__marketplace .container__marketplace--nav {
+  display: flex;
+  justify-content: space-between;
+}
+.container__marketplace .marketplace__nav--left a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.container__marketplace .marketplace__nav--left ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
