@@ -22,6 +22,7 @@ $fontWeightBold: 700;
   box-sizing: border-box;
   font-family: $fontFamily;
   font-size: $fontSize;
+  line-height: $lineHeight;
 }
 
 body {
@@ -75,7 +76,7 @@ body {
   color: $colorWhite;
 
   .container__modal--h1 {
-    margin-top: 24px;
+    margin-top: 8px;
   }
 
   .container__modal--details {
@@ -107,6 +108,9 @@ body {
 
     &:visited {
       color: $bgColor;
+    }
+    &:active {
+      background-color: $colorWhite;
     }
   }
 }

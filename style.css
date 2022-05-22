@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: "Fira Mono", monospace;
   font-size: 13px;
+  line-height: 24px;
 }
 
 body {
@@ -46,7 +47,7 @@ body {
   color: #ffffff;
 }
 .container__modal .container__modal--h1 {
-  margin-top: 24px;
+  margin-top: 8px;
 }
 .container__modal .container__modal--details {
   margin: 24px 0;
@@ -72,6 +73,9 @@ body {
 }
 .container__modal .modal__interact--button:visited {
   color: #000000;
+}
+.container__modal .modal__interact--button:active {
+  background-color: #ffffff;
 }
 
 /*# sourceMappingURL=style.css.map */
