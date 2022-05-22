@@ -3,10 +3,41 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Fira Mono", monospace;
+  font-size: 13px;
 }
 
 body {
   background-color: #000000;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 28px;
+  margin: 24px 61px;
+}
+.header .header__nav ul {
+  display: flex;
+  flex-direction: row;
+}
+.header .header__nav a {
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+  padding: 0 16px;
+}
+.header .header__nav--connect {
+  border-left: 1px solid #ffffff;
+}
+.header .header__nav--connect {
+  display: none;
+}
+
+.container {
+  display: flex;
+  margin: 24px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

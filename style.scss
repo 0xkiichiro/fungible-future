@@ -17,6 +17,8 @@ $lineHeight: 24px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: $fontFamily;
+  font-size: $fontSize;
 }
 
 body {
@@ -24,4 +26,38 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 28px;
+  margin: 24px 61px;
+
+  .header__nav ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .header__nav a {
+    color: $colorWhite;
+    text-decoration: none;
+    list-style: none;
+
+    padding: 0 16px;
+  }
+
+  .header__nav--connect {
+    border-left: $border;
+  }
+
+  .header__nav--connect {
+    //? activate when meta-mask connected.
+    display: none;
+  }
+}
+
+.container {
+  display: flex;
+
+  margin: 24px 0;
 }
