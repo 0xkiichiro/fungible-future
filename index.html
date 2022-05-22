@@ -21,9 +21,52 @@
       </nav>
     </header>
     <main class="container">
-      <div class="container__modal"></div>
-      <div class="container__marketplace"></div>
-      <div class="container__create-a-listing"></div>
+      <div class="container__child container__modal">
+        <a href="#">
+          <img src="./assets/img/dead-fellaz.png" alt="nft-preview" />
+        </a>
+        <h1 class="container__modal--h1">DeadFellaz #1345</h1>
+        <div class="container__modal--details">
+          <div class="modal__details--all modal__details--expiration">
+            <p>Expiration:</p>
+            <p>10/20/22</p>
+          </div>
+          <div class="modal__details--all modal__details--profit-share">
+            <p>Profit share:</p>
+            <p>40/60</p>
+          </div>
+          <div class="modal__details--all modal__details--floor-price">
+            <p>Floor price:</p>
+            <p>160 Ξ</p>
+          </div>
+          <div class="modal__details--all modal__details--future-price">
+            <p>Future price:</p>
+            <p>160 Ξ</p>
+          </div>
+          <div class="modal__details--all modal__details--rarity-score">
+            <p>Rarity score:</p>
+            <p>#98</p>
+          </div>
+          <div class="modal__details--all modal__details--rarity-score">
+            <p>Current owner:</p>
+            <p>takezo.eth</p>
+          </div>
+        </div>
+        <p>
+          By purchasing a future on marketplace, you agree to temporarily
+          transfer the ownership of your NFT to a proxy contract which will
+          execute the sale on your behalf and distribute profits according to
+          your choice.
+        </p>
+
+        <div class="container__modal--interact">
+          <a href="#" class="modal__interact--button">approve contract</a>
+          <p>and then --></p>
+          <a href="#" class="modal__interact--button">accept offer</a>
+        </div>
+      </div>
+      <div class="container__child container__marketplace"></div>
+      <div class="container__child container__create-a-listing"></div>
     </main>
   </body>
 </html>

@@ -31,13 +31,47 @@ body {
 .header .header__nav--connect {
   border-left: 1px solid #ffffff;
 }
-.header .header__nav--connect {
-  display: none;
-}
-
 .container {
   display: flex;
+  margin: 48px 61px;
+  gap: 60px;
+}
+.container .container__child {
+  border: 1px solid #ffffff;
+  padding: 32px 40px;
+  max-width: 400px;
+}
+
+.container__modal {
+  color: #ffffff;
+}
+.container__modal .container__modal--h1 {
+  margin-top: 24px;
+}
+.container__modal .container__modal--details {
   margin: 24px 0;
+}
+.container__modal .modal__details--all {
+  display: flex;
+  justify-content: space-between;
+}
+.container__modal .container__modal p {
+  color: #666666;
+}
+.container__modal .container__modal--interact {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-top: 32px;
+  color: #666666;
+}
+.container__modal .modal__interact--button {
+  background-color: #dedede;
+  padding: 0;
+  font-weight: 700;
+}
+.container__modal .modal__interact--button:visited {
+  color: #000000;
 }
 
 /*# sourceMappingURL=style.css.map */
