@@ -227,6 +227,7 @@
   width: 400px;
   height: 32px;
   outline: none;
+  color: #ffffff;
   background-color: #000000;
   border: 1px solid #666;
 }
@@ -235,6 +236,7 @@
   width: 128px;
   height: 32px;
   outline: none;
+  color: #ffffff;
   background-color: #000000;
   border: 1px solid #666;
 }
@@ -243,6 +245,7 @@
   width: 196px;
   height: 32px;
   outline: none;
+  color: #ffffff;
   background-color: #000000;
   border: 1px solid #666;
 }
