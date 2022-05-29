@@ -1,6 +1,10 @@
 .container__marketplace {
   width: 400px;
   // border: $border;
+  color: white;
+
+  //? ********** NAV **********
+
   .container__marketplace--nav {
     display: flex;
     justify-content: space-between;
@@ -28,5 +32,78 @@
   .marketplace__nav--right a {
     color: $colorWhite;
     text-decoration: none;
+  }
+
+  //? ********** SHOW-LISTING **********
+
+  .marketplace__listings {
+    display: flex;
+    flex-direction: column;
+    gap: 24px 0;
+    margin-top: 24px;
+
+    .marketplace__listings--item {
+      display: flex;
+      flex-direction: row;
+      gap: 0 20px;
+      height: 100px;
+      overflow: hidden;
+
+      a img {
+        height: 100px;
+        width: 100px;
+      }
+
+      .item__details--all {
+        //! hard-coded the width
+        width: 280px;
+        display: flex;
+        align-items: space-between;
+        //* margin should be :4px 0; but looks off
+        margin: 6px 0;
+
+        h1 {
+          font-size: 13px;
+          line-height: 16px;
+        }
+        p {
+          font-size: 12px;
+          line-height: 12px;
+        }
+      }
+    }
+
+    .item__details--all {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .clearfix {
+    display: flex;
+    color: $colorLightGrey;
+
+    a {
+      background-color: $colorButtonBg;
+      color: black;
+      text-decoration: none;
+    }
+  }
+
+  //? ********** CREATE-LISTING, PROVIDE-LIQUIDITY, WHITEPAPER **********
+
+  .marketplace__create-listing,
+  .marketplace__provide-liquidity,
+  .whitepaper {
+    margin: 24px 0;
+    a {
+      background-color: $colorButtonBg;
+      color: black;
+      text-decoration: none;
+    }
+    p {
+      margin: 24px 0;
+      text-align: justify;
+    }
   }
 }

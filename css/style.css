@@ -47,6 +47,7 @@
 }
 .container__modal .container__modal--p {
   color: #666666;
+  text-align: justify;
 }
 .container__modal .container__modal--interact {
   display: flex;
@@ -69,6 +70,7 @@
 
 .container__marketplace {
   width: 400px;
+  color: white;
 }
 .container__marketplace .container__marketplace--nav {
   display: flex;
@@ -90,6 +92,74 @@
 .container__marketplace .marketplace__nav--right a {
   color: #ffffff;
   text-decoration: none;
+}
+.container__marketplace .marketplace__listings {
+  display: flex;
+  flex-direction: column;
+  gap: 24px 0;
+  margin-top: 24px;
+}
+.container__marketplace .marketplace__listings .marketplace__listings--item {
+  display: flex;
+  flex-direction: row;
+  gap: 0 20px;
+  height: 100px;
+  overflow: hidden;
+}
+.container__marketplace .marketplace__listings .marketplace__listings--item a img {
+  height: 100px;
+  width: 100px;
+}
+.container__marketplace .marketplace__listings .marketplace__listings--item .item__details--all {
+  width: 280px;
+  display: flex;
+  align-items: space-between;
+  margin: 6px 0;
+}
+.container__marketplace .marketplace__listings .marketplace__listings--item .item__details--all h1 {
+  font-size: 13px;
+  line-height: 16px;
+}
+.container__marketplace .marketplace__listings .marketplace__listings--item .item__details--all p {
+  font-size: 12px;
+  line-height: 12px;
+}
+.container__marketplace .marketplace__listings .item__details--all {
+  display: flex;
+  justify-content: space-between;
+}
+.container__marketplace .clearfix {
+  display: flex;
+  color: #666666;
+}
+.container__marketplace .clearfix a {
+  background-color: #dedede;
+  color: black;
+  text-decoration: none;
+}
+.container__marketplace .marketplace__create-listing,
+.container__marketplace .marketplace__provide-liquidity,
+.container__marketplace .whitepaper {
+  margin: 24px 0;
+}
+.container__marketplace .marketplace__create-listing a,
+.container__marketplace .marketplace__provide-liquidity a,
+.container__marketplace .whitepaper a {
+  background-color: #dedede;
+  color: black;
+  text-decoration: none;
+}
+.container__marketplace .marketplace__create-listing p,
+.container__marketplace .marketplace__provide-liquidity p,
+.container__marketplace .whitepaper p {
+  margin: 24px 0;
+  text-align: justify;
+}
+
+.container__create-a-listing {
+  width: 400px;
+  border: 1px solid #ffffff;
+  color: white;
 }
 
 * {

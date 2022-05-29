@@ -5,7 +5,7 @@
   max-width: 400px;
 
   color: $colorWhite;
-
+  //? ********** DETAILS **********
   .container__modal--h1 {
     margin-top: 8px;
   }
@@ -21,7 +21,10 @@
 
   .container__modal--p {
     color: $colorLightGrey;
+    text-align: justify;
   }
+
+  //? ********** INTERACT **********
 
   .container__modal--interact {
     display: flex;
