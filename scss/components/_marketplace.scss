@@ -25,7 +25,16 @@
 
     .active {
       background-color: $colorButtonBg;
-      color: black;
+      padding: 0;
+      font-weight: $fontWeightBold;
+      text-decoration: none;
+
+      &:visited {
+        color: $bgColor;
+      }
+      &:active {
+        background-color: $colorWhite;
+      }
     }
   }
 
@@ -85,8 +94,16 @@
 
     a {
       background-color: $colorButtonBg;
-      color: black;
+      padding: 0;
+      font-weight: $fontWeightBold;
       text-decoration: none;
+
+      &:visited {
+        color: $bgColor;
+      }
+      &:active {
+        background-color: $colorWhite;
+      }
     }
   }
 
@@ -98,8 +115,16 @@
     margin: 24px 0;
     a {
       background-color: $colorButtonBg;
-      color: black;
+      padding: 0;
+      font-weight: $fontWeightBold;
       text-decoration: none;
+
+      &:visited {
+        color: $bgColor;
+      }
+      &:active {
+        background-color: $colorWhite;
+      }
     }
     p {
       margin: 24px 0;

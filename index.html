@@ -111,7 +111,7 @@
           </div>
 
           <div class="marketplace__listings--item">
-            <a href="#"><img src="./assets/img/item-2.png" alt="item-1" /></a>
+            <a href="#"><img src="./assets/img/item-2.png" alt="item-2" /></a>
             <div class="listings__item--details">
               <h1>Cryptoadz #4367</h1>
               <div class="item__details--expiration item__details--all">
@@ -134,7 +134,7 @@
           </div>
 
           <div class="marketplace__listings--item">
-            <a href="#"><img src="./assets/img/item-3.png" alt="item-1" /></a>
+            <a href="#"><img src="./assets/img/item-3.png" alt="item-3" /></a>
             <div class="listings__item--details">
               <h1>XCOPY G0CR4ZY</h1>
               <div class="item__details--expiration item__details--all">
@@ -191,7 +191,119 @@
           <a href="#">follow on twitter</a>
         </div>
       </div>
-      <div class="container__child container__create-a-listing"></div>
+      <div class="container__child container__create-a-listing">
+        <h1>Create a listing</h1>
+        <p>
+          Future is today! Create a listing on Fungible Future to liquidify your
+          non-fungible assets and still enjoy future profits.
+        </p>
+
+        <form action="#" class="create-a-listing__form">
+          <h1>Your listing</h1>
+          <div class="create-a-listing__form--preview">
+            <a href="#"
+              ><img src="./assets/img/dummy-jpeg.png" alt="dummy-jpeg"
+            /></a>
+            <div class="form__preview--details">
+              <h1>Unknown Collection #?</h1>
+              <div class="form__preview--expiration form__preview--all">
+                <p>Expiration:</p>
+                <p>-/-/-</p>
+              </div>
+              <div class="form__preview--profit-share form__preview--all">
+                <p>Profit share:</p>
+                <p>-/-</p>
+              </div>
+              <div class="form__preview--floor form__preview--all">
+                <p>Floor price:</p>
+                <p>-</p>
+              </div>
+              <div class="form__preview--future form__preview--all">
+                <p>Future price:</p>
+                <p>-</p>
+              </div>
+            </div>
+          </div>
+          <label for="token-address" class="label">Token address:</label>
+          <input
+            type="text"
+            id="token-address"
+            class="input"
+            placeholder="Token address of your NFT"
+          />
+          <label for="token-id" class="label">Token id:</label>
+          <input
+            type="text"
+            id="token-id"
+            class="input"
+            placeholder="Token id of your NFT"
+          />
+          <label for="expiration-date-day" class="label"
+            >Expiration date:</label
+          >
+          <input
+            type="text"
+            id="expiration-date-day"
+            class="input-33"
+            placeholder="Day"
+          />
+          <input
+            type="text"
+            id="expiration-date-month"
+            class="input-33"
+            placeholder="Month"
+          />
+          <input
+            type="text"
+            id="expiration-date-year"
+            class="input-33"
+            placeholder="Year"
+          />
+          <label for="price" class="label">Price(Ξ):</label>
+          <input
+            type="text"
+            id="price"
+            class="input"
+            placeholder="Current valuation of your asset"
+          />
+          <label for="future-price" class="label">Future price(Ξ):</label>
+          <input
+            type="text"
+            id="future-price"
+            class="input"
+            placeholder="Future valuation until expiry"
+          />
+          <label for="profit-share" class="label">Profit share(%):</label>
+          <input
+            type="text"
+            id="profit-share"
+            class="input-50"
+            placeholder="Your share"
+          />
+          <input
+            type="text"
+            id="investors-share"
+            class="input-50"
+            placeholder="Investors share"
+          />
+
+          <p class="marketplace__form--terms">
+            By publishing on Fungible Future marketplace, you agree to transfer
+            the ownership of your NFT to a proxy contract which will execute the
+            sale on your behalf and distribute profits according to your choice.
+            If a sale listing doesn’t finalize until expiry date, contract will
+            fallback to futures resolution and transfer the asset to the
+            investor.
+          </p>
+
+          <div class="form__terms--publish">
+            <span>first</span>
+            <a href="#">approve proxy contract</a>
+            <span>and then --></span>
+            <a href="#">publish</a>
+          </div>
+        </form>
+      </div>
     </main>
   </body>
 </html>
