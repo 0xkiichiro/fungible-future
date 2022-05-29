@@ -1,0 +1,30 @@
+@import "./abstracts/mixin", "./abstracts/variable";
+@import "./base/reset";
+@import "./components/header", "./components/modal", "./components/marketplace",
+  "./components/create-a-listing", "./components/responsive";
+
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap");
+
+* {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+}
+
+body {
+  background-color: $bgColor;
+}
+
+.container {
+  display: flex;
+  margin: 48px 61px;
+  gap: 60px;
+
+  // .container__child {
+  //   border: $border;
+  //   padding: 32px 40px;
+  //   max-width: 400px;
+
+  //   color: $colorWhite;
+  // }
+}

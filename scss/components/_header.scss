@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 28px;
+  margin: 24px 61px;
+
+  .header__nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  .header__nav a {
+    color: $colorWhite;
+    text-decoration: none;
+
+    padding: 0 16px;
+  }
+
+  .header__nav--connect {
+    border-left: $border;
+  }
+
+  .header__nav--connect {
+    //? activate when meta-mask connected.
+    display: none;
+  }
+}

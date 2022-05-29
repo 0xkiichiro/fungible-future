@@ -1,0 +1,32 @@
+.container__marketplace {
+  width: 400px;
+  // border: $border;
+  .container__marketplace--nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .marketplace__nav--left {
+  }
+
+  .marketplace__nav--left a {
+    color: $colorWhite;
+    text-decoration: none;
+  }
+
+  .marketplace__nav--left ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+
+    .active {
+      background-color: $colorButtonBg;
+      color: black;
+    }
+  }
+
+  .marketplace__nav--right a {
+    color: $colorWhite;
+    text-decoration: none;
+  }
+}
