@@ -10,7 +10,7 @@ HTML, CSS, SCSS
 
 ## Check the full-functioning site at: https://0xkiichiro.github.io/fungible-future/
 
-![](https://github.com/0xkiichiro/fungible-future/Screenshot.png)
+![](https://github.com/0xkiichiro/fungible-future/blob/master/Screenshot.png)
 
 ## Comments
 
